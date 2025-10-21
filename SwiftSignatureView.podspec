@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftSignatureView"
-  s.version          = "3.2.1"
+  s.version          = "3.2.4"
   s.summary          = "A lightweight, fast and customizable option for capturing signatures within your app. Uses PencilKit for iOS13+"
 
   s.description      = <<-DESC
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/alankarmisra/SwiftSignatureView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/alankarmisra_'
 
-  s.platform     = :ios, '12.0'
-  s.swift_version = '5.0.3'
+  s.platform     = :ios, '17.0'
+  s.swift_version = '5.9'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
